@@ -1,0 +1,27 @@
+{
+    "appenders":
+        [
+         	{
+         		"category":"log_all",
+                "type": "file",
+                "filename":"/home/simplecredit/log/frontend-portal/applog/frontend-portal-info.log",
+                "maxLogSize": 104857500,  
+                "backups": 50  
+            },
+            {
+            	"category": "log_error",  
+            	"type": "dateFile",  
+            	"filename":"/home/simplecredit/log/frontend-portal/applog/frontend-portal-error.log",
+            	"alwaysIncludePattern": true,  
+            	"pattern": "-yyyy-MM-dd"  
+
+            }
+        ],
+    "replaceConsole": true,
+    "levels":
+    {
+        "log_all":"ALL",
+        "log_error":"ALL"
+    }
+}
+

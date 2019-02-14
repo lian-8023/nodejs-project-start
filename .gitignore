@@ -1,0 +1,15 @@
+bin/
+target
+.class
+.classpath
+.project
+*.prefs
+*.log
+.idea/
+*.iml
+
+.git
+.scannerwork
+.vscode
+*.properties
+node_modules

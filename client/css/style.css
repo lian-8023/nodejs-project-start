@@ -1,0 +1,87 @@
+@import "antd.min.css";
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  line-height: 24px;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #445577;
+}
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+ol,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ol,
+li {
+  list-style: none;
+}
+button {
+  display: block;
+  outline: none;
+  font-weight: bold;
+  -webkit-tap-highlight-color: transparent;
+  border: none;
+}
+input,
+select {
+  outline: none;
+  -moz-outline-style: none;
+  border: none ;
+  -webkit-tap-highlight-color: transparent;
+}
+textarea {
+  resize: none;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+textarea:disabled {
+  background: #fff;
+}
+img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.hidden {
+  display: none!important;
+}
+.nav {
+  height: 30px;
+  background: black;
+}
+.nav li {
+  float: left;
+  padding: 0 10px;
+  line-height: 30px;
+}
+.nav li a {
+  color: #fff;
+}
